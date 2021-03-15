@@ -18,7 +18,7 @@ from shivyc.asm_gen import ASMCode, ASMGen
 def main():
     """Run the main compiler script."""
 
-    if platform.system() != "Linux":
+    if True:
         err = "only x86_64 Linux is supported"
         print(CompilerError(err))
         return 1
